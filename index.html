@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하동헌 - 포트폴리오</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    
+    <header>
+        <div class="header-content">
+            <div class="logo">DH</div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="nav-link active">홈</a></li>
+                    <li><a href="#about" class="nav-link">소개</a></li>
+                    <li><a href="#skills" class="nav-link">기술</a></li>
+                    <li><a href="#contact" class="nav-link">연락처</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="particles-container" id="particles-js"></div>
+        <div class="hero-content">
+            <h1 class="glitch" data-text="하동헌">하동헌</h1>
+            <div class="typing-container">
+                <span class="static-text">저는 </span>
+                <span class="dynamic-text"></span>
+            </div>
+            <div class="hero-buttons">
+                <a href="#about" class="btn primary-btn">자세히 보기</a>
+                <a href="#contact" class="btn secondary-btn">연락하기</a>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <span>스크롤 내리기</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">소개</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="img/hadongheon_img.JPG" alt="하동헌 프로필" class="profile-img">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>안녕하세요, <span class="highlight">하동헌</span>입니다!</h3>
+                    <p>전자공학을 전공하였지만, 코딩에 대한 열정으로 컴퓨터공학을 복수전공하고 개발자의 길을 걷고 있습니다.</p>
+                    <p>현재 SSAFY 14기 Java반 12반에서 교육을 받고 있으며, 아이디어를 직접 구현하는 것을 좋아합니다. 새로운 기술을 배우고 도전하는 것을 즐기며, 문제 해결에 대한 열정을 가지고 있습니다. 사용자 경험을 중요시하고 효율적이고 아름다운 코드를 작성하기 위해 노력합니다.</p>
+                    <p>개발 외에도 음악 작곡에도 관심이 있어 현재까지 2개의 음악 앨범을 발매했습니다. 기술과 예술의 조화를 추구하는 다재다능한 개발자로 성장하고 있습니다.</p>
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <span class="info-title">이름:</span>
+                            <span class="info-value">하동헌</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-title">전공:</span>
+                            <span class="info-value">전자공학 (주전공), 컴퓨터공학 (복수전공)</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-title">교육:</span>
+                            <span class="info-value">SSAFY 14기 Java반 12반</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-title">관심 분야:</span>
+                            <span class="info-value">웹 개발, 소프트웨어 엔지니어링, Java 백엔드</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-title">추가 활동:</span>
+                            <span class="info-value">음악 작곡 (앨범 2개 발매)</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/imclaremont" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/hadongheon" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://claremont.tistory.com/" class="social-link" target="_blank"><i class="fas fa-t"></i></a>
+                        <a href="https://soundcloud.com/imclaremont" class="social-link" target="_blank"><i class="fab fa-soundcloud"></i></a>
+                        <a href="mailto:dhha1515@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">기술 스택</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>프론트엔드</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item" data-skill="HTML5">
+                            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                            <h4>HTML5</h4>
+                            <div class="skill-level">
+                                <div class="progress-bar" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="CSS3">
+                            <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                            <h4>CSS3</h4>
+                            <div class="skill-level">
+                                <div class="progress-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="JavaScript">
+                            <div class="skill-icon"><i class="fab fa-js"></i></div>
+                            <h4>JavaScript</h4>
+                            <div class="skill-level">
+                                <div class="progress-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Vue">
+                            <div class="skill-icon"><i class="fab fa-vuejs"></i></div>
+                            <h4>Vue</h4>
+                            <div class="skill-level">
+                                <div class="progress-bar" data-level="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>백엔드</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item" data-skill="Python">
+                            <div class="skill-icon"><i class="fab fa-python"></i></div>
+                            <h4>Python</h4>
+                            <div class="skill-level">
+                                <div class="progress-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Java">
+                            <div class="skill-icon"><i class="fab fa-java"></i></div>
+                            <h4>Java</h4>
+                            <div class="skill-level">
+                                <div class="progress-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Spring">
+                            <div class="skill-icon"><i class="fas fa-leaf"></i></div>
+                            <h4>Spring</h4>
+                            <div class="skill-level">
+                                <div class="progress-bar" data-level="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="FastAPI">
+                            <div class="skill-icon"><i class="fas fa-bolt"></i></div>
+                            <h4>FastAPI</h4>
+                            <div class="skill-level">
+                                <div class="progress-bar" data-level="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>기타</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item" data-skill="Git">
+                            <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                            <h4>Git</h4>
+                            <div class="skill-level">
+                                <div class="progress-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Docker">
+                            <div class="skill-icon"><i class="fab fa-docker"></i></div>
+                            <h4>Docker</h4>
+                            <div class="skill-level">
+                                <div class="progress-bar" data-level="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="AWS">
+                            <div class="skill-icon"><i class="fab fa-aws"></i></div>
+                            <h4>AWS</h4>
+                            <div class="skill-level">
+                                <div class="progress-bar" data-level="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Embedded">
+                            <div class="skill-icon"><i class="fas fa-microchip"></i></div>
+                            <h4>임베디드</h4>
+                            <div class="skill-level">
+                                <div class="progress-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">연락처</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>이메일</h3>
+                            <p>dhha1515@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>전화번호</h3>
+                            <p>010-5788-9654</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>위치</h3>
+                            <p>경기도 남양주시</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>메시지 보내기</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="이름" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="이메일" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="제목" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="메시지" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">보내기</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>하동헌</h3>
+                    <p>SSAFY 14기 Java반 12반 | 개발자의 길을 걷는 열정적인 엔지니어</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">홈</a>
+                    <a href="#about">소개</a>
+                    <a href="#skills">기술</a>
+                    <a href="#contact">연락처</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/imclaremont" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/hadongheon" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://claremont.tistory.com/" class="social-link" target="_blank"><i class="fas fa-t"></i></a>
+                    <a href="https://soundcloud.com/imclaremont" class="social-link" target="_blank"><i class="fab fa-soundcloud"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 하동헌. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
